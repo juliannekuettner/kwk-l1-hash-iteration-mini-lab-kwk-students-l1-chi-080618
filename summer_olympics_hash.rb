@@ -30,4 +30,5 @@ def iterate_through_keys
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
   updated_hash.each do |place, years|
     puts "The #{place} summer olympics took place in #{year}".upcase
+  end
 end
