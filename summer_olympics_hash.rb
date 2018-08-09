@@ -22,6 +22,7 @@ def iterate_through_hash
   # and puts each key value pair within the phrase "The _____ summer olympics took place in _____."
   updated_hash.each do |place, year|
     puts "The #{place} summer olympics took place in #{year}."
+  end
 end
 
 def iterate_through_keys
